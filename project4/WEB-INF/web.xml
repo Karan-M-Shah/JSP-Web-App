@@ -1,0 +1,15 @@
+<web-app>
+    <display-name>project4</display-name>
+    <description>Remote SQL management</description>
+    
+    <servlet>
+        <servlet-name>executeCommand</servlet-name>
+        <description>Business Logic</description>
+        <servlet-class>Execute</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>executeCommand</servlet-name>
+        <url-pattern>/executeCommand</url-pattern>
+    </servlet-mapping>
+</web-app>
